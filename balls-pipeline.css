@@ -5,25 +5,25 @@
 }
 .container{
     width: 800px;
-    height: 700px;
+    height: 1020px;
     border: 1px solid green;
-    margin: 100px auto;
-    background-color: rgb(255, 145, 0);
+    margin: auto;
+    background-color: #ffc30f;
     position: relative;
     z-index: -1;
 }
 
-.ring1, .ring2, .ring3, .ring4, .ring5{
+.ring1, .ring2, .ring3, .ring4, .ring5, .ring6{
     background-color: rgb(184, 1, 1);
     border-radius: 90%;
     position: relative;
-    z-index: 0;
+    /* z-index: 0; */
 }
-.ring1-inner, .ring2-inner, .ring3-inner, .ring4-inner, .ring5-inner{
-    background-color: #dbd8d8;
+.ring1-inner, .ring2-inner, .ring3-inner, .ring4-inner, .ring5-inner, .ring6-inner{
+    background-color: #ffc30f;
     border-radius: 50%;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .ring1{
@@ -35,6 +35,362 @@
 .ring1-inner{
     width: 90px;
     height: 45px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.ring2{
+    width: 80px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.ring2-inner{
+    width: 73px;
+    height: 35px;
+    margin-top: 108px;
+    margin-left: 3.5px;
+}
+.ring3{
+    width: 50px;
+    height: 25px;
+    margin-top: -498px;
+    margin-left: 608px;
+}
+.ring3-inner{
+    width: 44px;
+    height: 21px;
+    margin-top: 306px;
+    margin-left: 3px;
+}
+.ring4{
+    width: 70px;
+    height: 35px;
+    margin-top: -100px;
+    margin-left: 114px;
+}
+.ring4-inner{
+    width: 62px;
+    height: 32px;
+    margin-top: 306px;
+    margin-left: 4px;
+}
+.ring5{
+    width: 60px;
+    height: 30px;
+    margin-top: -300px;
+    margin-left: 408px;
+}
+.ring5-inner{
+    width: 55px;
+    height: 27px;
+    margin-top: 306px;
+    margin-left: 3px;
+}
+.ring6{
+    width: 100px;
+    height: 50px;
+    margin-top: -500px;
+    margin-left: 250px;
+}
+.ring6-inner{
+    width: 90px;
+    height: 45px;
     margin-top: 306px;
     margin-left: 5px;
+}
+.ball1-inner, 
+.ball2-inner, 
+.ball3-inner, 
+.ball4-inner, 
+.ball5-inner, 
+.ball6-inner, 
+.ball7-inner, 
+.ball8-inner, 
+.ball9-inner, 
+.ball10-inner{
+    border-radius: 50%;
+    margin-top: 0;
+    position: relative;
+} 
+.ball1-inner{
+    background-color: darkblue;
+    width: 85px;
+    height: 85px;
+    margin-left: 667px;
+    animation: pass1 3s ease-in 1 forwards;
+    margin-top: -1400px;
+}
+@keyframes pass1 {
+    10%{
+        height: 85px;
+        width: 85px;
+    }
+    30%{
+        height: 80px;
+        width: 88px;
+    }
+    50%{
+        height: 80px;
+        width: 88px;
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    90%{
+        height: 80px;
+        width: 88px;
+        transform: translateY(1065px);
+        opacity: 1;
+    }
+    95%{
+        height: 88px;
+        width: 80px;
+    }
+    100%{
+        height: 85px;
+        width: 85px;
+        transform: translateY(1065px);
+    }
+}
+.ball2-inner{
+    background-color: rgb(137, 12, 106);
+    width: 60px;
+    height: 60px;
+    margin-left: 828px;
+    animation: pass2 4.5s ease-in 2s 1;
+    margin-top: -100px;
+}
+@keyframes pass2 {
+    10%{
+        height: 60px;
+        width: 60px;
+    }
+    30%{
+        height: 57px;
+        width: 63px;
+    }
+    50%{
+        height: 57px;
+        width: 63px;
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        height: 57px;
+        width: 63px;
+        transform: translateY(1470px);
+        opacity: 1;
+    }
+    100%{
+        height: 85px;
+        width: 85px;
+        transform: translateY(1470px);
+    }
+}
+.ball3-inner{
+    background-color: rgb(119, 109, 113);
+    width: 40px;
+    height: 40px;
+    margin-left: 1175px;
+    animation: pass3 5s ease-in 4s 1;
+}
+@keyframes pass3 {
+        10%{
+            height: 40px;
+            width: 40px;
+        }
+        30%{
+            height: 37px;
+            width: 43px;
+        }
+        50%{
+            height: 37px;
+            width: 43px;
+            opacity: 1;
+        }
+        70%{
+            opacity: 0.8;
+        }
+        90%{
+            height: 37px;
+            width: 43px;
+            transform: translateY(1470px);
+            opacity: 1;
+        }
+        100%{
+            height: 40px;
+            width: 40px;
+            transform: translateY(1470px);
+        }
+}
+.ball4-inner{
+    background-color: rgb(1, 91, 91);
+    width: 120px;
+    height: 120px;
+    margin-left: 800px;
+    animation: pass4 4s ease-in 6s 1 forwards;
+}
+@keyframes pass4 {
+    10%{
+        height: 115px;
+        width: 125px;
+    }
+    30%{
+        height: 115px;
+        width: 125px;
+    }
+    50%{
+        height: 115px;
+        width: 125px;
+        opacity: 1;
+    }
+    90%{
+        height: 115px;
+        width: 125px;
+        transform: translateY(835px);
+        opacity: 1;
+    }
+    
+    95%{
+        height: 125px;
+        width: 115px;
+        margin-left: 804px;
+    }
+    97%{
+        margin-left: 798px;
+    }
+    100%{
+        height: 120px;
+        width: 120px;
+        transform: translateY(835px);
+        margin-left: 800px;
+    }
+}
+.ball5-inner{
+    background-color: darkgreen;
+    width: 70px;
+    height: 70px;
+    margin-left: 966px;
+    animation: pass5 4s ease-in 8s 1 forwards;
+}
+@keyframes pass5 {
+    10%{
+        height: 65px;
+        width: 75px;
+    }
+    30%{
+        height: 65px;
+        width: 75px;
+    }
+    50%{
+        height: 65px;
+        width: 75px;
+        opacity: 1;
+    }
+    90%{
+        height: 65px;
+        width: 75px;
+        transform: translateY(911px);
+        opacity: 1;
+    }
+    95%{
+        height: 75px;
+        width: 65px;
+        margin-left: 966px;
+    }
+    97%{
+        margin-left: 962px;
+    }
+    100%{
+        height: 70px;
+        width: 70px;
+        transform: translateY(911px);
+        margin-left: 965px;
+    }
+}
+.ball6-inner{
+    background-color: rgb(213, 78, 5);
+    width: 100px;
+    height: 100px;
+    margin-left: 1062px;
+    animation: pass6 6s ease-in 10s 1;
+}
+@keyframes pass6 {
+    0%{
+        width: 103px;
+        height: 97px;
+    }
+    30%{
+        width: 105px;
+        height: 95px;
+    }
+    60%{
+        width: 105px;
+        height: 95px;
+        transform: translateY(720px);
+    }
+    62%{
+        width: 97px;
+        height: 103px;
+    }
+    70%{
+        height: 97px;
+        width: 103px;
+    }
+    90%{
+        width: 103px;
+        height: 97px;
+    }
+    100%{
+        height: 105px;
+        width: 95px;
+        transform: translate(-110px, 1200px);
+    }
+}
+
+.ball7-inner{
+    background-color: rgb(239, 252, 4);
+    width: 80px;
+    height: 80px;
+    margin-left: 1155px;
+    margin-top: -100px;
+    animation: pass7 3s ease-in 12s 1 forwards;
+}
+@keyframes pass7 {
+    10%{
+        height: 75px;
+        width: 85px;
+    }
+    30%{
+        height: 75px;
+        width: 85px;
+    }
+    50%{
+        height: 75px;
+        width: 85px;
+    }
+    90%{
+        height: 75px;
+        width: 85px;
+        transform: translateY(552px);
+        opacity: 1;
+    }
+    95%{
+        height: 75px;
+        width: 85px;
+        /* margin-left: 1160px; */
+    }
+    97%{
+        /* margin-left: 1154px; */
+    }
+    100%{
+        height: 80px;
+        width: 80px;
+        transform: translateY(552px);
+        /* margin-left: 1157px; */
+    }
 }
