@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 700px;
+    border: 1px solid green;
+    margin: 100px auto;
+    background-color: rgb(255, 145, 0);
+    position: relative;
+    z-index: -1;
+}
+
+.ring1, .ring2, .ring3, .ring4, .ring5{
+    background-color: rgb(184, 1, 1);
+    border-radius: 90%;
+    position: relative;
+    z-index: 0;
+}
+.ring1-inner, .ring2-inner, .ring3-inner, .ring4-inner, .ring5-inner{
+    background-color: #dbd8d8;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.ring1{
+    width: 100px;
+    height: 50px;
+    margin-top: 500px;
+    margin-left: 100px;
+}
+.ring1-inner{
+    width: 90px;
+    height: 45px;
+    margin-top: 306px;
+    margin-left: 5px;
+}
