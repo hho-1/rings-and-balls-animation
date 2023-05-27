@@ -114,7 +114,7 @@
     position: relative;
 } 
 .ball1-inner{
-    background-color: darkblue;
+    background-color: rgb(60, 193, 241);
     width: 85px;
     height: 85px;
     margin-left: 667px;
@@ -155,11 +155,11 @@
     }
 }
 .ball2-inner{
-    background-color: rgb(137, 12, 106);
+    background-color: rgb(12, 194, 18);
     width: 60px;
     height: 60px;
     margin-left: 828px;
-    animation: pass2 4.5s ease-in 2s 1;
+    animation: pass2 4s ease-in 2s 1;
     margin-top: -100px;
 }
 @keyframes pass2 {
@@ -192,11 +192,12 @@
     }
 }
 .ball3-inner{
-    background-color: rgb(119, 109, 113);
+    background-color: rgb(134, 149, 173);
     width: 40px;
     height: 40px;
     margin-left: 1175px;
     animation: pass3 5s ease-in 4s 1;
+
 }
 @keyframes pass3 {
         10%{
@@ -358,7 +359,7 @@
     height: 80px;
     margin-left: 1155px;
     margin-top: -100px;
-    animation: pass7 3s ease-in 12s 1 forwards;
+    animation: pass7 3s ease-in 13s 1 forwards;
 }
 @keyframes pass7 {
     10%{
@@ -377,20 +378,17 @@
         height: 75px;
         width: 85px;
         transform: translateY(552px);
-        opacity: 1;
+        margin-left: 1156px;
     }
     95%{
-        height: 75px;
-        width: 85px;
-        /* margin-left: 1160px; */
-    }
-    97%{
-        /* margin-left: 1154px; */
+        height: 80px;
+        width: 78px;
+        margin-left: 1152px; 
     }
     100%{
         height: 80px;
         width: 80px;
         transform: translateY(552px);
-        /* margin-left: 1157px; */
+        margin-left: 1154px;
     }
 }
