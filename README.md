@@ -7,6 +7,8 @@ Following topics have been covered:
 - CSS position
 - Basic HTML 
 
+Project sample website can be seen at https://hho-1.github.io/rings-and-balls-animation/
+
 ![Project preview is below:](./balls-and-rings.gif)
 
 
